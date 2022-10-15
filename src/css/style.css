@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/fundo-site.jpg);
+    background-image: url(../img/telaDeFundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,7 +34,7 @@ body{
     border-radius: 50px;
     width: 96px;
     height: 96px;
-    border: 4px solid #02d08f;
+    border: 3px solid #e228d8;
 }
 
 .cartao .minhas-informacoes .nome{
@@ -102,11 +102,15 @@ body{
     padding-right: 15px;
 }
 
-.informacoes-abas .descricao span{
-    color: #02d08f;
+.informacoes-abas .descricao p{
+    margin-top: .7em;
 }
 
-.redes-sociais{
+.informacoes-abas .descricao span{
+    color: #32d6ff;
+}
+
+.redes-sociais, .meus-projetos{
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -115,8 +119,7 @@ body{
     overflow-y: auto;
 }
 
-.redes-sociais li a{
-    background-color: red;
+.redes-sociais li a, .meus-projetos li a{
     width: 250px;
     display: block;
     color: #f3f3f3;
@@ -126,7 +129,7 @@ body{
     transition: opacity 0.3s ease-in-out;
 }
 
-.redes-sociais li a:hover{
+.redes-sociais li a:hover, .meus-projetos li a:hover{
     opacity: 0.8;
 }
 
@@ -141,4 +144,8 @@ body{
 
 .redes-sociais .github{
     background-color: #545454;
+}
+
+.meus-projetos .projeto-alura-jogo-secreto{
+    background-color: #326589;
 }
