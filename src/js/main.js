@@ -2,6 +2,8 @@
 const abas = document.querySelectorAll('.aba')
 
 //Funções
+console.log(` __  ___  __  .___  ___.  __   __  \r\n|  |\/  \/ |  | |   \\\/   | |  | |  | \r\n|  \'  \/  |  | |  \\  \/  | |  | |  | \r\n|    <   |  | |  |\\\/|  | |  | |  | \r\n|  .  \\  |  | |  |  |  | |__| |__| \r\n|__|\\__\\ |__| |__|  |__| (__) (__) \r\n                                   `)
+
 function selecionarAba(aba){
      const abaSelecionada = document.querySelector('.aba.selecionado')
         abaSelecionada.classList.remove('selecionado')
