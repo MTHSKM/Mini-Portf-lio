@@ -135,15 +135,31 @@ body{
 
 
 .redes-sociais .curriculo{
-    background-color: #06c185;
+    background-color: #b8bbc5;
 }
 
 .redes-sociais .linkedin{
-    background-color: #1d87bd;
+    background-color: brown;
 }
 
 .redes-sociais .github{
     background-color: #545454;
+}
+
+.redes-sociais .gmail{
+    background-color: crimson;
+}
+
+.redes-sociais .whatsapp{
+    background-color: #06c185;
+}
+
+.redes-sociais .twitter{
+    background-color: #1d87bd;
+}
+
+.redes-sociais .instagram{
+    background-color: #e126d9;
 }
 
 .meus-projetos .projeto-alura-jogo-secreto{
@@ -160,4 +176,8 @@ body{
 
 .meus-projetos .projeto-alura-space{
     background-color: darkcyan;
+}
+
+.meus-projetos .projeto-alura-ola-mundo{
+    background-color: deeppink;
 }
